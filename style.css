@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+body{
+    background-color:antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    
+}
+nav ul li{
+ padding: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}    
+
+.brand img{
+    width: 40px;
+    padding: 0px 8px;
+}
+.container{
+    min-height: 72vh;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 300;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 18px;
+    padding: 30px;
+    background: url('background.jpg') center;
+    flex-direction: column;
+    
+}
+.songList{
+    /* background-color: white; */
+    width: 45%;
+    
+}
+.songItemContainer{
+    margin-top: 50px;
+}
+.songItem{
+    color: black;
+    background-color: white;
+    /* color:white; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    height: 34px;
+    margin: 12px 0;
+    
+    
+}
+.songList .songItem img{
+    border-radius: 20px;
+    padding: 5px;
+}
+.iconPlay{
+    cursor:pointer; 
+}
+/* .songBanner{
+   
+} */
+.bottom{
+    position: sticky;
+    height: 93px;
+    background-color: black;
+    bottom:0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+.icons{
+    margin-top: 10px;
+    font-size: 1.6rem;
+    
+}
+.icons i{
+    cursor: pointer;
+}
+.iconBack:hover{
+    color: grey;
+}
+.iconPlay:hover{
+    color: grey;
+}
+.iconForward:hover{
+    color:grey;
+}
+.bottom #myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 3vw;
+    top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+.songName{
+    padding-top: 8px;
+    font-family: 'Varela Round', sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}

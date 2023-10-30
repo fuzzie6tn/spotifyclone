@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 bg-dark">
+                <img src="spotifyLogo.png" class="m-3" width="100px" alt="">
+                <ul class="navigation ms-1 mt-5">
+                    <li class="py-2 fs-5"><a href="" class="text-white text-decoration-none"> <i class="bi bi-house text-white p-3"></i> Home</a></li>
+                    <li class="py-2 fs-5"><a href="" class="text-white text-decoration-none"> <i class="bi bi-search text white p-3"></i> Search</a></li>
+                    <li class="py-2 fs-5"><a href="" class="text-white text-decoration-none"> <i class="bi bi-music-note-list p-3"></i>  Your Library</a></li>
+                    <br>
+                    <br>
+                    <br>
+                    <li class="py-2 fs-5"><a href="" class="text-white text-decoration-none"> <i class="bi bi-plus-square p-2"></i> Create Playlist</a></li>
+                    <li class="py-2 fs-5"><a href="" class="text-white text-decoration-none"> <img src="likedLogo.jpg" width="12%" class="p-2"> Liked Songs</a> <i class="bi bi-volume-up volumeUp"></i></li>
+                    <hr class="text-white">
+
+                    <ul class="PlayList">
+                        <li class="lh-lg"><a href="" class="text-decoration-none text-white">My Playlists #1</a></li>
+                        <li class="lh-lg"><a href="" class="text-decoration-none text-white">Daily Mix 1</a></li>
+                        <li class="lh-lg"><a href="" class="text-decoration-none text-white">Post Malon</a></li>
+                        <li class="lh-lg"><a href="" class="text-decoration-none text-white">The Best of Weeknd</a></li>
+                        <li class="lh-lg"><a href="" class="text-decoration-none text-white">Daily mix 2</a></li>
+                    </ul>
+                </ul>
+            </div>
+
+            <!-- SCOLL AREA -->
+            <div class="col-md-6 midPortion">
+               <!-- <i class="bi bi-arrow-bar-left arrows mt-2 fs-5"></i>
+               <i class="bi bi-arrow-bar-right arrows mt-2 fs-5"></i> -->
+               <!-- <button class="btn btn-dark upgradeButton">Upgrade</button> -->
+
+               <nav id="navbar-example2" class="navbar bg-dark bg-gradient px-3 mb-3 mt-2 rounded-3">
+                <a class="navbar-brand text-white fw-bold" href="#">Spotify</a>
+                <ul class="nav nav-pills">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light bg-outline-light rounded-5 dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Fazi</a>
+                    <ul class="dropdown-menu dropdownMenu bg-dark">
+                        <li><a class="dropdown-item text-white" href="#">Account</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Profile</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Private session</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Upgrade to premimum</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Log Out <i class="bi bi-box-arrow-right"> </i></a></i></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+
+               <!-- <li class="dropdown mt-3">
+                <button class="btn btn-dark dropdown-toggle rounded-full" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Fazi
+                </button>
+                <ul class="dropdown-menu dropdownMenu bg-dark">
+                  <li><a class="dropdown-item text-white" href="#">Account</a></li>
+                  <li><a class="dropdown-item text-white" href="#">Profile</a></li>
+                  <li><a class="dropdown-item text-white" href="#">Private session</a></li>
+                  <li><a class="dropdown-item text-white" href="#">Upgrade to premimum</a></li>
+                  <li><a class="dropdown-item text-white" href="#">Log Out</a></li>
+                </ul>
+              </li> -->
+            <div class="" data-bs-spy="scroll" data-bs-target="#scrollspyHeading1" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+              <h2 class="text-white mt-3 fw-bold mb-5">Good Evening</h2>
+            
+              <div class="card bg-dark mb-1" style="max-width: px;" id="scrollspyHeading1" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="2.jpeg" class="img-fluid rounded-start" width="150px" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Daily Mix</h5>
+                      <p class="card-text text-white">Your Weekly mixTape of fresh music. Check Out!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card bg-dark mb-1" style="max-width: px;" id="scrollspyHeading1">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="3.jpeg" class="img-fluid rounded-start" width="150    px" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">The Weeknd</h5>
+                      <p class="card-text text-white">Best of The Weeknd.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card bg-dark mb-1" style="max-width: px;" id="scrollspyHeading1">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="4.jpeg" class="img-fluid rounded-start" width="150    px" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Best of Post Malone</h5>
+                      <p class="card-text text-white">Die for me, Rockstar, Circles, Thousand Times, Hollywood's Bleeding... more..</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card bg-dark mb-1" style="max-width: px;" id="scrollspyHeading1">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="5.jpeg" class="img-fluid rounded-start" width="150    px" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Daily Mix 2</h5>
+                      <p class="card-text text-white">Go Down Deh, Wandall, Keep Trying, Reason, You and I....</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card bg-dark mb-1" style="max-width: px;" id="scrollspyHeading1">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="3.jpeg" class="img-fluid rounded-start" width="150    px" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Selena Gomez</h5>
+                      <p class="card-text text-white">De Una Vez, Slow down this song, Surviours...</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Friends Activity -->
+        </div>
+            <div class="col-md-3 bg-dark">
+                <div class="addFriend mt-4">
+                    <h4 class="text-white">Friend Activity</h4> 
+                    <i class="bi bi-person-plus-fill addFriendIcon text-white"></i>
+                </div>
+               <p class="text-white mt-3">Let friends and followers in Spotify see what you're listening to.</p>
+               <i class="bi bi-person-plus-fill text-white fs-3"></i> <em>Kate</em><br>
+               <i class="bi bi-person-plus-fill text-white fs-3"></i> <em>Remix</em> <br>
+               <i class="bi bi-person-plus-fill text-white fs-3"></i> <em>Post Malone</em> <br>
+               <i class="bi bi-person-plus-fill text-white fs-3"></i> <em>Maga</em>
+
+               <div class="row mt-4">
+                <div class="col-md">
+                  <h3>Go to <span class="text-success">premimum</span></h3>
+                  <p>You need to Upgrade:</p>
+                  <button class="btn btn-outline-light">Upgrade</button>
+
+                  <div class="mt-4">
+                    <small>Go to settings> Social and enable 'Share my listening activity on Spotify'. You can turn this off anytime.</small>
+                    <button class="btn btn-light btn-lg mt-4">Settings</button>
+                  </div>
+                </div>
+               </div>
+            </div>
+        </div> 
+          <!-- Seek area -->
+        <div class="row seekBar bg-gradient">
+          <div class="col-md-2 songInfo">
+              <img src="2.jpeg" width="42px" id="gif"> 
+              <span class="songName">My Universe - Remix </span>
+          </div>
+            <div class="col-md-8" style="margin-left: 17%;">
+                <div class="bottom mt-4">
+                    <div class="icons">
+                        <!-- font awesome icons -->
+                        <i class="bi bi-shuffle fs-4 px-4"></i>
+                        <i class="bi bi-skip-backward-circle fs-4 px-1"></i>
+                        <i class="bi bi-play-circle px-1 fs-3"></i>
+                        <i class="bi bi-skip-forward-circle fs-4 px-1"></i>
+                        <i class="bi bi-repeat px-4 fs-4"></i>
+                       
+                        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 me-5">
+              <i class="bi bi-pencil-fill px-1"></i>
+              <i class="bi bi-speaker px-1"></i>
+              <i class="bi bi-volume-up px-1"></i>
+              <input type="range" name="range" style="width: 50px;">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

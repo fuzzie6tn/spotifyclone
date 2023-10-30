@@ -1,0 +1,88 @@
+*{
+    color: white;
+    list-style-type: none;
+}
+.col-md-3{
+    position: sticky;
+}
+.navigation li a:hover{
+    font-weight: bold;
+    transition-duration: .3s;
+}
+
+.PlayList li a:hover{
+    font-weight: bold;
+    transition-duration: .3s;
+}
+.volumeUp{
+    
+    margin-left: 90%;
+    
+    cursor: pointer;
+    color: green;
+}
+.arrows{
+    cursor: pointer;
+    padding: 5px;
+}
+
+.addFriendIcon{
+    cursor: pointer;
+}
+.seekBar{
+    position: sticky;
+    height: 93px;
+    background-color:#171717;
+    bottom:0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+#myProgressBar{
+    position: relative;
+    width: 45vw;
+    cursor: pointer;
+    /* margin-top: 50px; */
+}
+/* .icons{
+    font-size: 30px;
+} */
+.songInfo{
+    position: absolute;
+    left: 3vw;
+    top: 3vh;
+   
+    
+}    
+.songInfo img{
+    width: 65px;
+}
+.midPortion{
+    background: #0F0F0F;
+}
+.card{
+    cursor: pointer;
+}
+.card .row:hover{
+    transition-duration: .8s;
+    background-color: rgba(0,0,0,0.35);
+    /* opacity: .6; */
+}
+.card-title{
+    color: white;
+    font-weight: bold;
+}
+.card-text{
+    font-style: italic;
+}
+.dropdownMenu li a:hover{
+    background: #000;
+}
+.nav .nav-item a:hover{
+    background: black;
+}
